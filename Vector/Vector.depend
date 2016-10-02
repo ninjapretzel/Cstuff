@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1475177051 source:c:\cygwin64\home\kog\dev\cstuff\vector\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vector3.h"
+	"util.h"
+
+1475166892 c:\cygwin64\home\kog\dev\cstuff\vector\vector3.h
+
+1475177079 source:c:\cygwin64\home\kog\dev\cstuff\vector\util.c
+	<stdlib.h>
+	<stdarg.h>
+	<stdio.h>
+
+1475172601 c:\cygwin64\home\kog\dev\cstuff\vector\util.h
+	<stdarg.h>
+
+1475177210 source:c:\cygwin64\home\kog\dev\cstuff\vector\vector3.c
+	<math.h>
+	<stdlib.h>
+	"vector3.h"
+	"util.h"
+

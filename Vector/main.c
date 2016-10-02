@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "vector3.h"
+#include "util.h"
 
 int main() {
-    printf("Hello world!\n");
-    printf("Poopy!\n");
+    println("Hello world!\n");
+    println("Poopy!\n");
 
     Vector3* blah = newVector3(3,2,4);
     printf("\n\nI has an vector!\n");
@@ -19,6 +20,7 @@ int main() {
     if (length(nrmd)) {
         panic("Length of a normalized vector was one, and that's exactly what I expected.");
     }
+
 
     printf("\n\ndone");
     return 0;
