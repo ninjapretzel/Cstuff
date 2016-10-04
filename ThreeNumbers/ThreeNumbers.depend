@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1475515480 source:c:\cygwin64\home\kog\dev\cstuff\threenumbers\main.c
+	<stdio.h>
+	<stdlib.h>
+
