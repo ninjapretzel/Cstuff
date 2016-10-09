@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="MoreNumbers/MoreNumbers.cbp" />
+		<Project filename="List/List.cbp" />
+		<Project filename="HelloWorld/HelloWorld.cbp" />
+		<Project filename="Matrix/Matrix.cbp" />
+		<Project filename="ThreeNumbers/ThreeNumbers.cbp" />
+		<Project filename="QuadraticEquation/QuadraticEquation.cbp" />
+		<Project filename="Words/Words.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
