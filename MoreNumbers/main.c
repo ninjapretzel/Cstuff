@@ -3,7 +3,7 @@
 #include <string.h>
 #include <math.h>
 #include <stdint-gcc.h>
-#include "list.h";
+#include "../List/list.h"
 
 #define MAX_CHARS 256
 #define DEBUG 0

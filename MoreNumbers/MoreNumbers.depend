@@ -17,3 +17,22 @@
 
 1475609546 c:\cygwin64\home\kog\dev\cstuff\morenumbers\list.h
 
+1476051340 source:g:\development\c\cstuff\morenumbers\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"../List/list.h"
+
+1476050300 g:\development\c\cstuff\list\list.h
+	<stdint-gcc.h>
+
+1476050126 source:g:\development\c\cstuff\list\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+
