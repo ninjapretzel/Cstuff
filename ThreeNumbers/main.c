@@ -14,9 +14,6 @@ loop:
     printf("\n%s\n>", prompt);
     if (!fgets(c, MAX_CHARS-1, stdin)) { goto loop; }
     val = strtod(c, &last);
-    //printf("\nRead:%s",c);
-    //printf("\nptr:0x%x", last);
-    //printf("\nchar:0x[%x]", *last);
 
     if (!val && *c != '0') { printf("\nPlease enter an actual number."); goto loop; }
     if (*last != '\n') { printf("\nPlease enter just a number."); goto loop; }

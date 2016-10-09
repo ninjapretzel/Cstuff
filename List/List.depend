@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1475710344 source:c:\cygwin64\home\kog\dev\cstuff\list\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+
+1475710370 c:\cygwin64\home\kog\dev\cstuff\list\list.h
+
+1475710401 source:c:\cygwin64\home\kog\dev\cstuff\list\main.c
+	<stdio.h>
+	<stdlib.h>
+

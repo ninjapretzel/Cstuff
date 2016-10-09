@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1475685030 source:c:\cygwin64\home\kog\dev\cstuff\quadraticequation\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

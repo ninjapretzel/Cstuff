@@ -1,8 +1,19 @@
 # depslib dependency file v1.0
-1475604932 source:c:\cygwin64\home\kog\dev\cstuff\morenumbers\main.c
+1475609605 source:c:\cygwin64\home\kog\dev\cstuff\morenumbers\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<math.h>
 	<stdint-gcc.h>
+	"list.h"
+
+1475609584 source:c:\cygwin64\home\kog\dev\cstuff\morenumbers\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+
+1475609546 c:\cygwin64\home\kog\dev\cstuff\morenumbers\list.h
 

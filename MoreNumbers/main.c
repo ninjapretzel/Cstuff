@@ -8,7 +8,7 @@
 #define MAX_CHARS 256
 #define DEBUG 0
 
-///Struct containing mean, median, and standard Deviation
+///Struct type containing mean, median, and standard Deviation
 typedef struct StatData {
     double mean;
     double median;
@@ -59,7 +59,7 @@ List* loadData(char* filename){
     return list;
 }
 
-///Comparison fuinction used in qsort() to sort doubles
+///Comparison function used in qsort() to sort doubles
 int dcmp(const void* v1, const void* v2) {
     const double* a = v1;
     const double* b = v2;
@@ -70,7 +70,9 @@ int dcmp(const void* v1, const void* v2) {
 ///Returns a struct containing the mean, median, and stDev
 /// data - data set to look at
 /// cnt - number of elements in data set
-StatData* process(double* data, int cnt) {
+StatData* process(List* list) {
+    double* data = (double*) list->data;
+    int32_t cnt = list->count;
     //If data is a null pointer, or count is not valid, return nothing.
     if (!data || cnt <= 0) { return NULL; }
     StatData* stats = malloc(sizeof(StatData));
@@ -129,7 +131,7 @@ int main() {
     printf("Loaded file, contained %d numbers\n", list->count);
 
     printf("Processing loaded data...\n");
-    StatData* stats = process(list->data, list->count);
+    StatData* stats = process(list);
     char output[MAX_CHARS];
     StatDataToString(output, stats);
     printf("Processed data successfully\n%s\n", output);

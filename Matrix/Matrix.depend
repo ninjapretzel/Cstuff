@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1475710021 source:c:\cygwin64\home\kog\dev\cstuff\matrix\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+
+1475687046 c:\cygwin64\home\kog\dev\cstuff\matrix\list.h
+
+1475710178 source:c:\cygwin64\home\kog\dev\cstuff\matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint-gcc.h>
+	<time.h>
+	<limits.h>
+	"list.h"
+
+1475710344 source:c:\cygwin64\home\kog\dev\cstuff\list\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+
+1475710370 c:\cygwin64\home\kog\dev\cstuff\list\list.h
+
