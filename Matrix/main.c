@@ -3,7 +3,7 @@
 #include <stdint-gcc.h>
 #include <time.h>
 #include <limits.h>
-#include "list.h"
+#include "../List/list.h"
 
 void printMat(void* mat, int32_t rows, int32_t cols) {
     int32_t* matrix = mat;

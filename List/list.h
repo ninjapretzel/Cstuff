@@ -1,3 +1,4 @@
+#include <stdint-gcc.h>
 #ifndef LIST_INC
 #define LIST_INC
 ///"""""GENERIC""""" array data struct

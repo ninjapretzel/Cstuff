@@ -13,3 +13,18 @@
 	<stdio.h>
 	<stdlib.h>
 
+1476050126 source:g:\development\c\cstuff\list\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1476050126 source:g:\development\c\cstuff\list\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+
+1476050300 g:\development\c\cstuff\list\list.h
+	<stdint-gcc.h>
+

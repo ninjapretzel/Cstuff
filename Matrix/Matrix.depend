@@ -27,3 +27,22 @@
 
 1475710370 c:\cygwin64\home\kog\dev\cstuff\list\list.h
 
+1476050126 source:g:\development\c\cstuff\list\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+
+1476050300 g:\development\c\cstuff\list\list.h
+	<stdint-gcc.h>
+
+1476050775 source:g:\development\c\cstuff\matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint-gcc.h>
+	<time.h>
+	<limits.h>
+	"../List/list.h"
+
