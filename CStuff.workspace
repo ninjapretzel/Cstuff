@@ -8,5 +8,6 @@
 		<Project filename="ThreeNumbers/ThreeNumbers.cbp" />
 		<Project filename="QuadraticEquation/QuadraticEquation.cbp" />
 		<Project filename="Words/Words.cbp" />
+		<Project filename="Tree/Tree.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

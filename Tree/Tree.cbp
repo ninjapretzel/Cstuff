@@ -31,9 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../List/list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../List/list.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="node.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="node.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
