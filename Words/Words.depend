@@ -10,8 +10,11 @@
 1476050300 g:\development\c\cstuff\list\list.h
 	<stdint-gcc.h>
 
-1476051632 source:g:\development\c\cstuff\words\main.c
-	<stdlib.h>
+1476059085 source:g:\development\c\cstuff\words\main.c
 	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
 	"../List/list.h"
 

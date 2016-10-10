@@ -112,4 +112,10 @@ List* newList_cap(size_t size, int32_t initCapacity) {
 ///Returns the pointer to the newly created list data
 ///Equivelent to the call newList(size, 10);
 ///If allocation fails, returns a null.
-List* newList(size_t size) { return newList_cap(size, 10); }
+List* newList(size_t size) { return newList_cap(size, 16); }
+
+
+void killList(List* this) {
+    free(this->data);
+    free(this);
+}

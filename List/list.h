@@ -54,8 +54,11 @@ List* newList_cap(size_t size, int32_t initCapacity);
 
 ///Creates a new List object with a given size and capacity of 10.
 ///Returns the pointer to the newly created list data
-///Equivelent to the call newList(size, 10);
+///Equivelent to the call newList(size, 16);
 ///If allocation fails, returns a null.
 List* newList(size_t size);
+
+///Properly deconstructs and frees memory of a list object.
+void killList(List* this);
 
 #endif // LIST_INC

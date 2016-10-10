@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1476073459 source:g:\development\c\cstuff\tree\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint-gcc.h>
+	"../List/list.h"
+	"node.h"
+
+1476070108 g:\development\c\cstuff\list\list.h
+	<stdint-gcc.h>
+
+1476063812 source:g:\development\c\cstuff\list\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+
+1476073302 g:\development\c\cstuff\tree\node.h
+	"../List/list.h"
+
+1476073285 source:g:\development\c\cstuff\tree\node.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"node.h"
+	"../List/list.h"
+
