@@ -33,7 +33,7 @@ int main() {
     b = getval("Enter the value for b");
     c = getval("Enter the value for c");
 
-    if (a != 0) {
+    if (a) {
         //ax^2 + bx + c
         //-b +/- sqrt(b^2-4ac) / 2a 9
         double innerTerm = b*b - 4*a*c;
@@ -56,7 +56,7 @@ int main() {
             printf("\nThey are %f and %f\n", root1, root2);
         }
     } else { // Extra functionality- doesn't break with linear equations or constant equations.
-        if (b != 0) {
+        if (b) {
             printf("That's a linear equation!");
             //bx + c = 0
             double x = -c / b;
