@@ -36,3 +36,22 @@
 	<stdint-gcc.h>
 	"list.h"
 
+1476115668 source:d:\development\c\cstuff\morenumbers\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"../List/list.h"
+
+1476115668 d:\development\c\cstuff\list\list.h
+	<stdint-gcc.h>
+
+1476115668 source:d:\development\c\cstuff\list\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+

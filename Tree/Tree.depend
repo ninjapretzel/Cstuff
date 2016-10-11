@@ -29,3 +29,33 @@
 	"node.h"
 	"../List/list.h"
 
+1476146679 source:d:\development\c\cstuff\list\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+
+1476146483 d:\development\c\cstuff\list\list.h
+	<stdint-gcc.h>
+
+1476149046 source:d:\development\c\cstuff\tree\node.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"node.h"
+	"../List/list.h"
+
+1476149388 d:\development\c\cstuff\tree\node.h
+	"../List/list.h"
+
+1476149769 source:d:\development\c\cstuff\tree\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint-gcc.h>
+	"../List/list.h"
+	"node.h"
+

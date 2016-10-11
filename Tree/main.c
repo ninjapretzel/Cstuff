@@ -1,3 +1,11 @@
+/*
+Jonathan Cohen
+Code Reading, 2016
+Learning the C Language
+Program #7 - Tree
+This one was pretty tricky.
+The tree auto-balances itself, as elements are added.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint-gcc.h>
@@ -27,6 +35,7 @@ List* nextWord(FILE* file) {
     return word;
 }
 
+///Finds the highest count node in a subtree.
 Node* max(Node* from) {
     if (from == NULL) { return NULL; }
 
@@ -44,6 +53,8 @@ Node* max(Node* from) {
 
     return from;
 }
+
+///Finds the lowest count node in a subtree.
 Node* min(Node* from) {
     if (from == NULL) { return NULL; }
 
@@ -61,6 +72,12 @@ Node* min(Node* from) {
 
     return from;
 }
+
+
+
+
+
+
 int main() {
     FILE* file;
     char* inputFile = "filler.txt";
@@ -82,24 +99,14 @@ int main() {
             cnt++;
         }
         root = NodeAdd(root, word);
-        //killList(word);
 
         last = pos;
         pos = ftell(file);
     }
     fclose(file);
-    printf("Read %d words\n\n", cnt);
+    printf("Read %d words\n", cnt);
 
-    //printf("here is the tree:\n");
-    //NodePrintPre(root);
-
-    //printf("\n\nBalancing tree...\n\n");
-    //root = NodeBalance(root);
-    //printf("\n\nDone balancing!\n\n");
-
-    NodeNicePrint(stdout, root);
-
-    printf("\n\nWriting file.\n\n");
+    printf("\nWriting file.\n");
     if (!(file = fopen(outputFile, "w+"))) {
         printf("Could not open file %s for writing", outputFile);
         return 2;

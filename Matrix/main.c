@@ -1,10 +1,20 @@
+/*
+Jonathan Cohen
+Code Reading, 2016
+Learning the C Language 
+Program #5 - Matrix
+Pretty easy, but it would be easier if the matrix was just an array.
+I guess we have to be challenged somehow.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint-gcc.h>
 #include <time.h>
 #include <limits.h>
+//Also uses List!
 #include "../List/list.h"
 
+///Prints out a matrix.
 void printMat(void* mat, int32_t rows, int32_t cols) {
     int32_t* matrix = mat;
     int32_t i;
@@ -15,7 +25,7 @@ void printMat(void* mat, int32_t rows, int32_t cols) {
         if (i % cols == (cols-1)) { printf("]\n"); }
     }
 }
-
+///Finds the lowest value in a matrix.
 int32_t min(void* mat, int32_t rows, int32_t cols) {
     int32_t* matrix = mat;
     int32_t length = rows * cols;
@@ -26,7 +36,7 @@ int32_t min(void* mat, int32_t rows, int32_t cols) {
     }
     return min;
 }
-
+///Finds the highest value in a matrix.
 int32_t max(void* mat, int32_t rows, int32_t cols) {
     int32_t* matrix = mat;
     int32_t length = rows * cols;
@@ -37,12 +47,13 @@ int32_t max(void* mat, int32_t rows, int32_t cols) {
     }
     return max;
 }
-
+///Holds a value, and the number of times it has appeared.
 typedef struct Pair {
     int32_t val;
     int32_t count;
 } Pair;
 
+///Increments the count of a given value in a List* of Pair structs
 void incrementCount(List* list, int32_t value) {
     if (list == NULL) { return; }
 
@@ -64,6 +75,10 @@ void incrementCount(List* list, int32_t value) {
 
 }
 
+
+
+
+///Counds the number of occurances of all values inside of a matrix of integers.
 List* countOccurances(void* mat, int32_t rows, int32_t cols) {
     int32_t* matrix = mat;
     printf("Test");
@@ -82,6 +97,7 @@ List* countOccurances(void* mat, int32_t rows, int32_t cols) {
     return list;
 }
 
+///Prints out all of the Pair structs in a List*
 void printPairList(List* list) {
     int32_t i;
     double numVals = 0;

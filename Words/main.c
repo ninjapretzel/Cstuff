@@ -1,3 +1,11 @@
+/*
+Jonathan Cohen
+Code Reading, 2016
+Learning the C Language
+Program #6 - Words
+Word. Words. Reading files was pretty easy.
+I use my List* type as a string here.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -21,7 +29,7 @@ int main() {
     }
 
     char c;
-    printf("Reading File");
+    printf("Reading File\n");
     int32_t alpha, digit, white, punct;
     alpha = digit = white = punct = 0;
     while ((c = fgetc(file)) != EOF) {
@@ -43,7 +51,7 @@ int main() {
 
     char output[MAX_CHARS];
     char* op = output;
-    op += snprintf(op, MAX_CHARS, "Read %d characters from file.", chars->count);
+    op += snprintf(op, MAX_CHARS, "Read %d characters from file.\n", chars->count);
     op += snprintf(op, MAX_CHARS, "Character counts are:\n");
     op += snprintf(op, MAX_CHARS, "Alpha:\t\t%d\n", alpha);
     op += snprintf(op, MAX_CHARS, "Digit:\t\t%d\n", digit);
@@ -56,8 +64,8 @@ int main() {
         return 2;
     }
 
-
     fprintf(file, "%s", output);
     fclose(file);
+	killList(chars);
     return 0;
 }

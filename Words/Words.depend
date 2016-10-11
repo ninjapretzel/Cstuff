@@ -18,3 +18,22 @@
 	<stdint-gcc.h>
 	"../List/list.h"
 
+1476146679 source:d:\development\c\cstuff\list\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"list.h"
+
+1476146483 d:\development\c\cstuff\list\list.h
+	<stdint-gcc.h>
+
+1476147633 source:d:\development\c\cstuff\words\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdint-gcc.h>
+	"../List/list.h"
+

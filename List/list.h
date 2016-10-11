@@ -1,3 +1,13 @@
+/*
+Jonathan Cohen
+Code Reading, 2016
+Learning the C Language 
+
+Helper code- List
+Header file List. Holds typedef/struct definition and method prototypes.
+
+Also INCLUDEGUARDS YAY
+*/
 #include <stdint-gcc.h>
 #ifndef LIST_INC
 #define LIST_INC

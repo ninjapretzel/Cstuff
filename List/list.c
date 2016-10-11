@@ -1,4 +1,18 @@
+/*
+Jonathan Cohen
+Code Reading, 2016
+Learning the C Language 
 
+Helper code- List
+Implementation for List methods.
+Allows:
+	Creating a new list (with a given size for each element)
+	Ensuring a List has a certain capacity
+	Adding elements to a List
+	Getting elements from a List
+	Releasing (freeing) the memory used by a List.
+I used this code pretty extensively for many projects
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -48,6 +62,21 @@ int32_t ListEnsureCapacity(List* this, int32_t capacity) {
     }
     return -3;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ///Adds a single element to a List.
 ///Adds the element by copying its data into the list.

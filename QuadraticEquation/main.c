@@ -1,3 +1,10 @@
+/*
+Jonathan Cohen
+Code Reading, 2016
+Learning the C Language 
+Program #4 - QuadraticEquation
+This one was pretty easy. Doesn't even need my magic list code.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -7,6 +14,7 @@ double getval(char* prompt) {
     char c[MAX_CHARS];
     char* last = NULL;
     double val;
+	//Guess I'm using gotos/labels again, because I copy/pasted code. Yay.
 loop:
     last = NULL;
     memset(c, 0, MAX_CHARS);
@@ -55,7 +63,8 @@ int main() {
             printEq(a, b, c);
             printf("\nThey are %f and %f\n", root1, root2);
         }
-    } else { // Extra functionality- doesn't break with linear equations or constant equations.
+    } else { 
+		// Extra functionality- doesn't break with linear equations or constant equations.
         if (b) {
             printf("That's a linear equation!");
             //bx + c = 0

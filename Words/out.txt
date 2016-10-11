@@ -1,5 +1,6 @@
-Read 190 characters from file.Character counts are:
-Alpha:		155
-Digit:		0
-Whitespace:	28
-Punctuation:	6
+Read 343 characters from file.
+Character counts are:
+Alpha:		256
+Digit:		11
+Whitespace:	64
+Punctuation:	12

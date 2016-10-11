@@ -1,8 +1,22 @@
+/*
+Jonathan Cohen
+Code Reading, 2016
+Learning the C Language
+Program #3 - MoreNumbers
+
+This is where things got a bit icky for me.
+I do not like having fixed size inputs, 
+	or forcing constraints like 100 numbers max.
+	
+I wrote a List struct to handle all of the nifty automatic memory allocation
+	needed for the list to resize itself.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
 #include <stdint-gcc.h>
+//Loads list.h from another directory (Due to how my files were structured)
 #include "../List/list.h"
 
 #define MAX_CHARS 256
@@ -58,7 +72,6 @@ List* loadData(char* filename){
     fclose(fp);
     return list;
 }
-
 ///Comparison function used in qsort() to sort doubles
 int dcmp(const void* v1, const void* v2) {
     const double* a = v1;
@@ -120,9 +133,6 @@ StatData* process(List* list) {
     return stats;
 }
 
-
-
-
 int main() {
     char* inputFile = "numbers.txt";
     char* outputFile = "output.dat";
@@ -146,29 +156,5 @@ int main() {
 
         printf("Failed to open output file.\n");
     }
-
-
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

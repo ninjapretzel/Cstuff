@@ -1,3 +1,10 @@
+/*
+Jonathan Cohen
+Code Reading, 2016
+Learning the C Language
+Program #7 - Tree/node.h
+Just the header for the node class.
+*/
 #include "../List/list.h"
 #ifndef NODE_INC
 #define NODE_INC
